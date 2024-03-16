@@ -1,6 +1,9 @@
 # PowerBICyberArkComplianceReport
 Display CyberArk Compliance Report in Power BI Chart
 
+# Version 1.1 
+Update table structure
+
 
 # First Run
 Create a new directory (for example C:\CyberArkComplianceReport), save "CyberArk Compliance Report.pbix" and example Compliance Report "ComplianceReport.xlsx"
