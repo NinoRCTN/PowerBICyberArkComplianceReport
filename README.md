@@ -4,14 +4,23 @@ Display CyberArk Compliance Report in Power BI Chart
 # Version 1.1 
 Update table structure
 
+# Version 2.0
+Update table structure
+Add filter for Device Type and Platform
 
-# First Run
-Create a new directory (for example C:\CyberArkComplianceReport), save "CyberArk Compliance Report.pbix" and example Compliance Report "ComplianceReport.xlsx"
+
+# First Run 1.1
+Create a new directory (for example C:\CyberArkComplianceReport), copy "CyberArk Compliance Report" pbix file and the example file of Compliance Report "ComplianceReport.xlsx"
 Run Power BI, open file "CyberArk Compliance Report.pbix", and from "Transform Data > Data source settings" set Data Source to point "C:\CyberArkComplianceReport\ComplianceReport.xlsx"
 
+# First Run 2.0
+Copy the example file of Inventory Report "InventoryReport.xlsx"
+Run Power BI, open file "CyberArk Compliance Report.pbix", and from "Transform Data > Data source settings" set Data Source to point "C:\CyberArkComplianceReport\InventoryReport.xlsx"
 
-# Import CyberArk Compliance Report
+
+# Import CyberArk Reports
 From CyberArk PVWA generate and download a new Compliance Report. Open Compliance Report file and save as "ComplianceReport.xlsx" in the data directory (C:\CyberArkComplianceReport\)
+From CyberArk PVWA generate and download a new Inventory Report. Open Inventory Report file and save as "InventoryReport.xlsx" in the data directory (C:\CyberArkComplianceReport\) (The inventory Report is requested only for 2.x vesions)
 From Power BI use "Refresh" button to reload Data
 
 
