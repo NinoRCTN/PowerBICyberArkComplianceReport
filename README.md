@@ -8,6 +8,8 @@ Update table structure
 Update table structure
 Add filter for Device Type and Platform
 
+# Version 2.1
+Update Teme
 
 # First Run 1.1
 Create a new directory (for example C:\CyberArkComplianceReport), copy "CyberArk Compliance Report" pbix file and the example file of Compliance Report "ComplianceReport.xlsx"
